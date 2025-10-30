@@ -21,6 +21,7 @@ public class User {
     }
 
     public void update(NewsArticle article) {
+        System.out.println("user " + name + " received a notification");
         strategy.send(name, article);
     }
 }

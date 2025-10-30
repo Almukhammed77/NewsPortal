@@ -9,6 +9,10 @@ public class NewsArticle {
         this.text = text;
     }
 
-    public String getTitle() { return title; }
-    public String getText() { return text; }
+    public String getTitle() {
+        return title;
+    }
+    public String getText() {
+        return text;
+    }
 }

@@ -23,7 +23,8 @@ public class NewsPortal {
     }
 
     public void addArticle(NewsArticle article) {
-        System.out.println("\n[" + name + "] New article: " + article.getTitle());
+        System.out.println();
+        System.out.println("--" + name + "-- new article " + article.getTitle());
         notifySubscribers(article);
     }
 

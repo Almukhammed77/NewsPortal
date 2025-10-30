@@ -10,8 +10,9 @@ public class NewsPortalManager {
     private NewsPortalManager() {}
 
     public static NewsPortalManager getInstance() {
-        if (instance == null)
+        if (instance == null) {
             instance = new NewsPortalManager();
+        }
         return instance;
     }
 

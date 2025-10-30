@@ -6,7 +6,9 @@ public class NotificationFactory {
             return new EmailNotification();
         else if (type.equalsIgnoreCase("sms"))
             return new SmsNotification();
-        else
+        else {
+            System.out.println("Type not found, push selected by default");
             return new PushNotification();
+        }
     }
 }
